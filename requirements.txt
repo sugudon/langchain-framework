@@ -5,3 +5,4 @@ langchain-huggingface
 sentence-transformers
 langchain-openai
 faiss-cpu
+langsmith
