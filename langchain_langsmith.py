@@ -12,4 +12,8 @@ model = ChatOpenAI(model="gpt-4o-mini")
 chain = prompt | model | StrOutputParser()
 
 
-print(chain.invoke({"topic": "LangSmith"}))
+input = input("Input: ")
+
+print(chain.invoke({"topic": input}))
+
+
